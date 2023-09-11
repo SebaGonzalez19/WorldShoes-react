@@ -1,5 +1,5 @@
 import React from "react";
-import "./Style.css";
+import "./style.css";
 
 export default function ItemListContainer({ greeting }) {
   return (
