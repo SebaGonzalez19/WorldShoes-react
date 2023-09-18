@@ -1,11 +1,12 @@
 import React from "react";
-import cart from "./assets/cart.svg";
+import cartImage from "../../assets/images/cart.svg";
 import "./style.css";
 
 export default function CartWidget() {
   return (
     <div>
-      <img src={cart} alt="cart-widget" className="cart" />0
+      <img src={cartImage} alt="cart-widget" className="cart" />
+      <span>0</span>
     </div>
   );
 }
