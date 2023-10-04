@@ -1,6 +1,7 @@
 import React from "react";
 import CartWidget from "../CartWidget/CartWidget";
 import "./Style.css";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -8,9 +9,9 @@ export default function NavBar() {
       {/* menú de navegación responsive */}
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
-          <a className="navbar-brand" href="index.html">
+          <Link className="navbar-brand" to="/">
             WorldShoes
-          </a>
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <i className="bi bi-list"></i>
           </button>
@@ -24,29 +25,34 @@ export default function NavBar() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <Link className="nav-link" to="/">
                     Inicio
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="./">
+                  <Link className="nav-link" to="/productos">
+                    Productos
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/productos/Nike">
                     Nike
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="./">
+                  <Link className="nav-link" to="/productos/Adidas">
                     Adidas
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="./">
+                  <Link className="nav-link" to="/productos/Puma">
                     Puma
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="./">
+                  <Link className="nav-link" to="/nosotros">
                     Nosotros
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <CartWidget />
