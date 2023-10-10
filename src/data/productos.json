@@ -11,6 +11,15 @@
   {
     "id": 2,
     "marca": "Nike",
+    "modelo": "Nike Air More",
+    "precio": "105.000",
+    "imagen": "/images/air-more.jpg",
+    "descripcion": "Las Nike Air More Uptempo son unas zapatillas icónicas con un diseño audaz y estilo retro.",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "marca": "Nike",
     "modelo": "Nike Air Force 1",
     "precio": "75.000",
     "imagen": "/images/air-force-1.webp",
@@ -18,7 +27,7 @@
     "stock": 10
   },
   {
-    "id": 3,
+    "id": 4,
     "marca": "Nike",
     "modelo": "Nike Air Max 90",
     "precio": "90.000",
@@ -27,7 +36,7 @@
     "stock": 10
   },
   {
-    "id": 4,
+    "id": 5,
     "marca": "Nike",
     "modelo": "Nike Air Max 95",
     "precio": "95.000",
@@ -36,7 +45,7 @@
     "stock": 10
   },
   {
-    "id": 5,
+    "id": 6,
     "marca": "Nike",
     "modelo": "Nike Air Max 97",
     "precio": "80.000",
@@ -45,7 +54,7 @@
     "stock": 10
   },
   {
-    "id": 6,
+    "id": 7,
     "marca": "Nike",
     "modelo": "Nike Air Jordan 1",
     "precio": "95.000",
@@ -54,7 +63,7 @@
     "stock": 10
   },
   {
-    "id": 7,
+    "id": 8,
     "marca": "Nike",
     "modelo": "Nike React Presto",
     "precio": "70.000",
@@ -63,7 +72,7 @@
     "stock": 10
   },
   {
-    "id": 8,
+    "id": 9,
     "marca": "Nike",
     "modelo": "Nike Free RN",
     "precio": "60.000",
@@ -72,7 +81,7 @@
     "stock": 10
   },
   {
-    "id": 9,
+    "id": 10,
     "marca": "Adidas",
     "modelo": "Adidas Superstar",
     "precio": "70.000",
@@ -81,7 +90,7 @@
     "stock": 10
   },
   {
-    "id": 10,
+    "id": 11,
     "marca": "Adidas",
     "modelo": "Adidas Ozelle",
     "precio": "90.000",
@@ -90,34 +99,7 @@
     "stock": 10
   },
   {
-    "id": 11,
-    "marca": "Adidas",
-    "modelo": "Adidas Stan Smith",
-    "precio": "65.000",
-    "imagen": "/images/stan-smith.jpg",
-    "descripcion": "Las Stan Smith son conocidas por su diseño limpio y elegante, perfectas para el uso diario.",
-    "stock": 10
-  },
-  {
     "id": 12,
-    "marca": "Adidas",
-    "modelo": "Adidas Ultraboost",
-    "precio": "90.000",
-    "imagen": "/images/ultra.jpg",
-    "descripcion": "Las Ultraboost ofrecen una increíble amortiguación y retorno de energía, ideales para correr.",
-    "stock": 10
-  },
-  {
-    "id": 13,
-    "marca": "Adidas",
-    "modelo": "Adidas NMD R1",
-    "precio": "85.000",
-    "imagen": "/images/nmd-r1.jpg",
-    "descripcion": "Las NMD R1 destacan por su diseño moderno y su comodidad excepcional.",
-    "stock": 10
-  },
-  {
-    "id": 14,
     "marca": "Adidas",
     "modelo": "Adidas Yeezy Boost 350",
     "precio": "100.000",
@@ -126,7 +108,44 @@
     "stock": 10
   },
   {
+    "id": 13,
+    "marca": "Adidas",
+    "modelo": "Adidas Stan Smith",
+    "precio": "65.000",
+    "imagen": "/images/stan-smith.jpg",
+    "descripcion": "Las Stan Smith son conocidas por su diseño limpio y elegante, perfectas para el uso diario.",
+    "stock": 10
+  },
+  {
+    "id": 14,
+    "marca": "Adidas",
+    "modelo": "Adidas Ultraboost",
+    "precio": "90.000",
+    "imagen": "/images/ultra.jpg",
+    "descripcion": "Las Ultraboost ofrecen una increíble amortiguación y retorno de energía, ideales para correr.",
+    "stock": 10
+  },
+  {
     "id": 15,
+    "marca": "Adidas",
+    "modelo": "Adidas NMD R1",
+    "precio": "85.000",
+    "imagen": "/images/nmd-r1.jpg",
+    "descripcion": "Las NMD R1 destacan por su diseño moderno y su comodidad excepcional.",
+    "stock": 10
+  },
+  {
+    "id": 16,
+    "marca": "Adidas",
+    "modelo": "Adidas Forum Mid",
+    "precio": "65.000",
+    "imagen": "/images/forum-mid.jpg",
+    "descripcion": "Forum",
+    "stock": 10
+  },
+
+  {
+    "id": 17,
     "marca": "Adidas",
     "modelo": "Adidas Gazelle",
     "precio": "60.000",
@@ -135,7 +154,7 @@
     "stock": 10
   },
   {
-    "id": 16,
+    "id": 18,
     "marca": "Adidas",
     "modelo": "Adidas Pharrell Williams Human",
     "precio": "80.000",
@@ -144,7 +163,7 @@
     "stock": 10
   },
   {
-    "id": 17,
+    "id": 19,
     "marca": "Puma",
     "modelo": "Puma Suede",
     "precio": "55.000",
@@ -153,7 +172,7 @@
     "stock": 10
   },
   {
-    "id": 18,
+    "id": 20,
     "marca": "Puma",
     "modelo": "Puma Cali",
     "precio": "60.000",
@@ -162,7 +181,7 @@
     "stock": 10
   },
   {
-    "id": 19,
+    "id": 21,
     "marca": "Puma",
     "modelo": "Puma RS-X",
     "precio": "75.000",
@@ -171,7 +190,7 @@
     "stock": 10
   },
   {
-    "id": 20,
+    "id": 22,
     "marca": "Puma",
     "modelo": "Puma RS-Fast",
     "precio": "65.000",
@@ -180,7 +199,7 @@
     "stock": 10
   },
   {
-    "id": 21,
+    "id": 23,
     "marca": "Puma",
     "modelo": "Puma King",
     "precio": "50.000",
@@ -189,7 +208,7 @@
     "stock": 10
   },
   {
-    "id": 22,
+    "id": 24,
     "marca": "Puma",
     "modelo": "Puma Ralph Sampson",
     "precio": "70.000",

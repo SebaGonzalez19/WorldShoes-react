@@ -41,3 +41,7 @@
 .agregar-carrito {
   width: auto;
 }
+
+.item-count p {
+  color: white;
+}

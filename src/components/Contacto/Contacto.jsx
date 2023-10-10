@@ -10,7 +10,7 @@ export default function Contacto() {
   };
 
   return (
-    <div className="container">
+    <div className="container-contact">
       <h1 className="title"> Contacto</h1>
       <form className="formulario" onSubmit={handleSubmit(enviar)}>
         <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")} />

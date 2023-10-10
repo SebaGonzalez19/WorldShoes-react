@@ -1,8 +1,9 @@
-.container {
+.container-contact {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 30px;
 }
 
 .formulario {

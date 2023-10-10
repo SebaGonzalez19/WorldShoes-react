@@ -21,9 +21,9 @@ export default function ItemDetail({ item }) {
     <div className="card-detail">
       <img src={item.imagen} alt={item.modelo} className="imagen-detail" />
       <div className="info-detail">
-        <h3>{item.modelo}</h3>
-        <p>${item.precio}</p>
-        <p>{item.descripcion}</p>
+        <h3 className="text">{item.modelo}</h3>
+        <p className="text">${item.precio}</p>
+        <p className="text">{item.descripcion}</p>
         <ItemCount cantidad={cantidad} handleSumar={handleSumar} handleRestar={handleRestar} handleAgregar={handleAgregar} />
       </div>
     </div>
