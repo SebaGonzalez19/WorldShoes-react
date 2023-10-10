@@ -5,7 +5,8 @@
     "modelo": "Nike Air Max 1",
     "precio": "85.000",
     "imagen": "/images/air-max-1.jpg",
-    "descripcion": "Las Air Max 1 son un clásico atemporal con un diseño icónico y una comodidad excepcional."
+    "descripcion": "Las Air Max 1 son un clásico atemporal con un diseño icónico y una comodidad excepcional.",
+    "stock": 10
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "modelo": "Nike Air Force 1",
     "precio": "75.000",
     "imagen": "/images/air-force-1.webp",
-    "descripcion": "Las Air Force 1 son unas zapatillas legendarias conocidas por su estilo versátil y durabilidad."
+    "descripcion": "Las Air Force 1 son unas zapatillas legendarias conocidas por su estilo versátil y durabilidad.",
+    "stock": 10
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "modelo": "Nike Air Max 90",
     "precio": "90.000",
     "imagen": "/images/air-max-90.jpg",
-    "descripcion": "Las Air Max 90 combinan comodidad y estilo, siendo ideales para cualquier ocasión."
+    "descripcion": "Las Air Max 90 combinan comodidad y estilo, siendo ideales para cualquier ocasión.",
+    "stock": 10
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "modelo": "Nike Air Max 95",
     "precio": "95.000",
     "imagen": "/images/air-max-95.jpg",
-    "descripcion": "Las Air Max 95 destacan por su diseño audaz y su amortiguación de alto rendimiento."
+    "descripcion": "Las Air Max 95 destacan por su diseño audaz y su amortiguación de alto rendimiento.",
+    "stock": 10
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "modelo": "Nike Air Max 97",
     "precio": "80.000",
     "imagen": "/images/air-max-97.jpg",
-    "descripcion": "Las Air Max 97 son conocidas por su aspecto futurista y su comodidad excepcional."
+    "descripcion": "Las Air Max 97 son conocidas por su aspecto futurista y su comodidad excepcional.",
+    "stock": 10
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "modelo": "Nike Air Jordan 1",
     "precio": "95.000",
     "imagen": "/images/air-jordan-1.webp",
-    "descripcion": "Las Air Jordan 1 son las icónicas zapatillas de Michael Jordan, ideales para los amantes del baloncesto."
+    "descripcion": "Las Air Jordan 1 son las icónicas zapatillas de Michael Jordan, ideales para los amantes del baloncesto.",
+    "stock": 10
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "modelo": "Nike React Presto",
     "precio": "70.000",
     "imagen": "/images/react-presto.jpeg",
-    "descripcion": "Las React Presto ofrecen comodidad y estilo con una amortiguación reactiva."
+    "descripcion": "Las React Presto ofrecen comodidad y estilo con una amortiguación reactiva.",
+    "stock": 10
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "modelo": "Nike Free RN",
     "precio": "60.000",
     "imagen": "/images/free-rn.jpg",
-    "descripcion": "Las Free RN son ideales para correr, ofreciendo una experiencia natural y ligera."
+    "descripcion": "Las Free RN son ideales para correr, ofreciendo una experiencia natural y ligera.",
+    "stock": 10
   },
   {
     "id": 9,
@@ -69,102 +77,124 @@
     "modelo": "Adidas Superstar",
     "precio": "70.000",
     "imagen": "/images/superstar.jpg",
-    "descripcion": "Las Superstar son clásicas y versátiles, con su emblemática puntera de concha."
+    "descripcion": "Las Superstar son clásicas y versátiles, con su emblemática puntera de concha.",
+    "stock": 10
   },
   {
     "id": 10,
     "marca": "Adidas",
-    "modelo": "Adidas Stan Smith",
-    "precio": "65.000",
-    "imagen": "/images/stan-smith.jpg",
-    "descripcion": "Las Stan Smith son conocidas por su diseño limpio y elegante, perfectas para el uso diario."
+    "modelo": "Adidas Ozelle",
+    "precio": "90.000",
+    "imagen": "/images/ozelle.jpg",
+    "descripcion": "Las Adidas Ozelle son un ejemplo perfecto de estilo y comodidad en el calzado deportivo.",
+    "stock": 10
   },
   {
     "id": 11,
     "marca": "Adidas",
-    "modelo": "Adidas Ultraboost",
-    "precio": "90.000",
-    "imagen": "/images/ultra.jpg",
-    "descripcion": "Las Ultraboost ofrecen una increíble amortiguación y retorno de energía, ideales para correr."
+    "modelo": "Adidas Stan Smith",
+    "precio": "65.000",
+    "imagen": "/images/stan-smith.jpg",
+    "descripcion": "Las Stan Smith son conocidas por su diseño limpio y elegante, perfectas para el uso diario.",
+    "stock": 10
   },
   {
     "id": 12,
     "marca": "Adidas",
-    "modelo": "Adidas NMD R1",
-    "precio": "85.000",
-    "imagen": "/images/nmd-r1.jpg",
-    "descripcion": "Las NMD R1 destacan por su diseño moderno y su comodidad excepcional."
+    "modelo": "Adidas Ultraboost",
+    "precio": "90.000",
+    "imagen": "/images/ultra.jpg",
+    "descripcion": "Las Ultraboost ofrecen una increíble amortiguación y retorno de energía, ideales para correr.",
+    "stock": 10
   },
   {
     "id": 13,
     "marca": "Adidas",
-    "modelo": "Adidas Yeezy Boost 350",
-    "precio": "100.000",
-    "imagen": "/images/yeezy-350.jpg",
-    "descripcion": "Las Yeezy Boost 350 son las zapatillas diseñadas en colaboración con Kanye West, con estilo y exclusividad."
+    "modelo": "Adidas NMD R1",
+    "precio": "85.000",
+    "imagen": "/images/nmd-r1.jpg",
+    "descripcion": "Las NMD R1 destacan por su diseño moderno y su comodidad excepcional.",
+    "stock": 10
   },
   {
     "id": 14,
     "marca": "Adidas",
-    "modelo": "Adidas Gazelle",
-    "precio": "60.000",
-    "imagen": "/images/gazelle.jpg",
-    "descripcion": "Las Gazelle son zapatillas retro con un aspecto clásico y cómodo."
+    "modelo": "Adidas Yeezy Boost 350",
+    "precio": "100.000",
+    "imagen": "/images/yeezy-350.jpg",
+    "descripcion": "Las Yeezy Boost 350 son las zapatillas diseñadas en colaboración con Kanye West, con estilo y exclusividad.",
+    "stock": 10
   },
   {
     "id": 15,
     "marca": "Adidas",
-    "modelo": "Adidas Pharrell Williams Human",
-    "precio": "80.000",
-    "imagen": "/images/williams.jpg",
-    "descripcion": "Las Pharrell Williams Human ofrecen un diseño único y colorido en colaboración con Pharrell Williams."
+    "modelo": "Adidas Gazelle",
+    "precio": "60.000",
+    "imagen": "/images/gazelle.jpg",
+    "descripcion": "Las Gazelle son zapatillas retro con un aspecto clásico y cómodo.",
+    "stock": 10
   },
   {
     "id": 16,
-    "marca": "Puma",
-    "modelo": "Puma Suede",
-    "precio": "55.000",
-    "imagen": "/images/suede.jpg",
-    "descripcion": "Las Suede son zapatillas clásicas con un toque retro y un estilo distintivo."
+    "marca": "Adidas",
+    "modelo": "Adidas Pharrell Williams Human",
+    "precio": "80.000",
+    "imagen": "/images/williams.jpg",
+    "descripcion": "Las Pharrell Williams Human ofrecen un diseño único y colorido en colaboración con Pharrell Williams.",
+    "stock": 10
   },
   {
     "id": 17,
     "marca": "Puma",
-    "modelo": "Puma Cali",
-    "precio": "60.000",
-    "imagen": "/images/cali.jpg",
-    "descripcion": "Las Cali son zapatillas de inspiración retro con un diseño fresco y moderno."
+    "modelo": "Puma Suede",
+    "precio": "55.000",
+    "imagen": "/images/suede.jpg",
+    "descripcion": "Las Suede son zapatillas clásicas con un toque retro y un estilo distintivo.",
+    "stock": 10
   },
   {
     "id": 18,
     "marca": "Puma",
-    "modelo": "Puma RS-X",
-    "precio": "75.000",
-    "imagen": "/images/rsx.jpg",
-    "descripcion": "Las RS-X son zapatillas de estilo futurista con una combinación de colores llamativa."
+    "modelo": "Puma Cali",
+    "precio": "60.000",
+    "imagen": "/images/cali.jpg",
+    "descripcion": "Las Cali son zapatillas de inspiración retro con un diseño fresco y moderno.",
+    "stock": 10
   },
   {
     "id": 19,
     "marca": "Puma",
-    "modelo": "Puma RS-Fast",
-    "precio": "65.000",
-    "imagen": "/images/rsfast.jpg",
-    "descripcion": "Las RS-Fast son zapatillas deportivas con un diseño dinámico y llamativo."
+    "modelo": "Puma RS-X",
+    "precio": "75.000",
+    "imagen": "/images/rsx.jpg",
+    "descripcion": "Las RS-X son zapatillas de estilo futurista con una combinación de colores llamativa.",
+    "stock": 10
   },
   {
     "id": 20,
     "marca": "Puma",
-    "modelo": "Puma King",
-    "precio": "50.000",
-    "imagen": "/images/king.jpg",
-    "descripcion": "Las King son zapatillas clásicas con un diseño atemporal y comodidad excepcional."
+    "modelo": "Puma RS-Fast",
+    "precio": "65.000",
+    "imagen": "/images/rsfast.jpg",
+    "descripcion": "Las RS-Fast son zapatillas deportivas con un diseño dinámico y llamativo.",
+    "stock": 10
   },
   {
     "id": 21,
     "marca": "Puma",
+    "modelo": "Puma King",
+    "precio": "50.000",
+    "imagen": "/images/king.jpg",
+    "descripcion": "Las King son zapatillas clásicas con un diseño atemporal y comodidad excepcional.",
+    "stock": 10
+  },
+  {
+    "id": 22,
+    "marca": "Puma",
     "modelo": "Puma Ralph Sampson",
     "precio": "70.000",
     "imagen": "/images/ralph.jpg",
-    "descripcion": "Las Ralph Sampson son zapatillas de baloncesto con un diseño elegante y retro."
+    "descripcion": "Las Ralph Sampson son zapatillas de baloncesto con un diseño elegante y retro.",
+    "stock": 10
   }
 ]
