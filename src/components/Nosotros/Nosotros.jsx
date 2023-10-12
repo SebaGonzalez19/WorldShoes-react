@@ -13,5 +13,9 @@ export default function Nosotros() {
     };
   }, []);
 
-  return <div>Nosotros somos re locos</div>;
+  return (
+    <div>
+      <h1>Nosotros</h1>
+    </div>
+  );
 }

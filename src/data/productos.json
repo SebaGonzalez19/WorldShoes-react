@@ -140,7 +140,7 @@
     "modelo": "Adidas Forum Mid",
     "precio": "65.000",
     "imagen": "/images/forum-mid.jpg",
-    "descripcion": "Forum",
+    "descripcion": "Zapatillas icónicas que fusionan el legado clásico de Adidas con un toque moderno, ofreciendo comodidad y estilo urbano a un precio accesible.",
     "stock": 10
   },
 
@@ -202,7 +202,7 @@
     "id": 23,
     "marca": "Puma",
     "modelo": "Puma King",
-    "precio": "50.000",
+    "precio": "30.000",
     "imagen": "/images/king.jpg",
     "descripcion": "Las King son zapatillas clásicas con un diseño atemporal y comodidad excepcional.",
     "stock": 10

@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div>
-      {/* menú de navegación responsive */}
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
