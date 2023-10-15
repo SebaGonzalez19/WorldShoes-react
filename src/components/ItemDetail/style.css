@@ -25,3 +25,10 @@
   display: flex;
   justify-content: center;
 }
+
+.mensaje {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}

@@ -3,10 +3,11 @@ import { useForm } from "react-hook-form";
 import "./style.css";
 
 export default function Contacto() {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
 
   const enviar = (data) => {
     console.log(data);
+    reset();
   };
 
   return (
