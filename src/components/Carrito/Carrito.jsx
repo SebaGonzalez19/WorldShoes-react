@@ -22,8 +22,8 @@ export default function Carrito() {
             <div className="carrito-card-details">
               <h2>{prod.modelo}</h2>
               <p>Precio por unidad: ${formatPrice(prod.precio)}</p>
-              <p>Precio total: ${formatPrice(prod.precio * prod.cantidad)}</p>
               <p>Cantidad: {prod.cantidad} unidades</p>
+              <p>Precio total: ${formatPrice(prod.precio * prod.cantidad)}</p>
             </div>
           </div>
         </div>
