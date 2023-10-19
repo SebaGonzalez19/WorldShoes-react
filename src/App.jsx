@@ -7,6 +7,7 @@ import Nosotros from "./components/Nosotros/Nosotros";
 import Contacto from "./components/Contacto/Contacto";
 import Carrito from "./components/Carrito/Carrito";
 import CartProvider from "./components/Context/CartContext";
+import Checkout from "./components/Checkout/Checkout";
 //npm start
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/carrito" element={<Carrito />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
 
         <Footer />
