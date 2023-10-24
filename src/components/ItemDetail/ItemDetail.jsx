@@ -25,6 +25,7 @@ export default function ItemDetail({ item }) {
   const agregarItemAlCarrito = () => {
     agregarAlCarrito(item, cantidad);
     setMensaje("¡Se añadió al carrito!😁");
+    setCantidad(1);
     setTimeout(() => {
       setMensaje("");
     }, 2000);
